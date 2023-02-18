@@ -1,0 +1,134 @@
+
+  /* Set the font family, size, and color for the entire body */
+body {
+    margin: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+  }
+  
+  /* Style the color and hover effect for all links */
+  a {
+    color: #000;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Style the header with a background color, padding, and a fixed position */
+  header {
+    background-color: #00adc4;
+    color: #ffffff;
+    flex-wrap: wrap;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    line-height: 1;
+  }
+  
+  /* Style the header title with a larger font size */
+  header h1 {
+    font-size: 2rem;
+    margin: 0;
+  }
+
+  header h3 {
+    font-size: 1rem;
+    margin: 0;
+    align-items: left;
+    text-align: left;
+  }
+  
+  /* Style the navigation links with a list style, display, and margin */
+  nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    margin-left: 1rem;
+  }
+  
+  nav ul li a {
+    display: block;
+    padding: 0.5rem;
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 5px;
+  }
+  
+  /* Style the hover effect for navigation links */
+  nav ul li a:hover {
+    background-color: #989898;
+    color: #000;
+    text-decoration: underline;
+  }
+  
+  /* Style the main content area with a margin-top */
+  main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+  }
+  
+  /* Style each section with a margin, padding, and border */
+  section {
+    margin-top: 2rem;
+    padding: 20px;
+    /*border: 1px solid #ccc;*/
+  }
+  
+  /* Style the section headings with a larger font size and margin */
+  section h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  /* Style the section paragraphs with a font size and line height */
+  section p {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-top: 1rem;
+  }
+  
+  
+  /* Style the unordered list with a list style and font size */
+  ul {
+    list-style: none;
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-top: 1rem;
+  }
+  
+  /* Style the list items inside the unordered list with a margin and icon */
+  ul li {
+    margin-left: 1rem;
+  }
+  
+  ul li i {
+    color: #333;
+  }
+  
+  /* Style the linkedin icon in the contact section with a blue color */
+  ul li i.fab {
+    color: #0a66c2;
+  }
+  
+  /* Style the email icon in the contact section with a red color */
+  ul li i.fa-envelope-square {
+    color: #d44638;
+  }
+  
+  /* Style the footer with a background color, padding, text alignment, and a fixed position */
+  footer {
+    background-color: #353434;
+    padding: 1rem;
+    text-align: center;
+    color:#ffffff;
+  }

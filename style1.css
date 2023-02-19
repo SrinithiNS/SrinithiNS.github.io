@@ -49,7 +49,8 @@ body {
     flex-direction: column;
     padding: 50px 0;
     background: url(bg2.png) no-repeat center center fixed;
-    background-color: #eee;
+    background-size: cover;
+    background-color: #353434;
     text-align: center;
   }
   
@@ -103,7 +104,7 @@ body {
   
   /* Style the hover effect for navigation links */
   nav ul li a:hover {
-    background-color: #989898;
+    background-color: #fff;
     color: #000;
     text-decoration: underline;
     align-items: right;
@@ -120,34 +121,40 @@ body {
   section {
     margin-top: 2rem;
     padding: 20px;
-    /*border: 1px solid #ccc;*/
+    border: 1px solid #ccc;
+    border-radius: 1rem;
+    box-shadow: #fff;
   }
-  
+
   /* Style the section headings with a larger font size and margin */
   section h2 {
     font-size: 2rem;
     margin-bottom: 20px;
+    margin-top: 0.5%;
   }
   
   /* Style the section paragraphs with a font size and line height */
   section p {
     font-size: 1rem;
     line-height: 1.6;
-    margin-top: 1rem;
+  }
+
+  section div li {
+    list-style:circle;
   }
 
   /* Style the unordered list with a list style and font size */
   ul {
-    list-style: none;
+    list-style: circle;
     font-size: 1rem;
     line-height: 1.6;
     margin-top: 1rem;
   }
   
-  /* Style the list items inside the unordered list with a margin and icon */
+  /* Style the list items inside the unordered list with a margin and icon 
   ul li {
     margin-left: 1rem;
-  }
+  }*/
   
   ul li i {
     color: #333;
@@ -157,18 +164,21 @@ body {
   ul li i.fab {
     color: #0a66c2;
     margin-right: 1rem;
+    margin-left: 1rem;
   }
 
   /* Style the phone icon in the contact section */
   li i.fa-phone-alt {
     margin-right: 1rem;
     color: #7f7f7f;
+    margin-left: 1rem;
   }
   
   /* Style the email icon in the contact section with a red color */
   ul li i.fa-envelope-square {
     color: #d44638;
     margin-right: 1rem;
+    margin-left: 1rem;
   }
   
   /* Style the footer with a background color, padding, text alignment, and a fixed position */

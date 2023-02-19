@@ -8,6 +8,7 @@ body {
     font-size: 16px;
     line-height: 1.5;
     color: #fff;
+    align-items: center;
   }
   
   /* Style the color and hover effect for all links */
@@ -39,6 +40,28 @@ body {
   .logo img {
     height: 65px;
     margin-right: 15px;
+  }
+
+  .banner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 50px 0;
+    background: url(bg2.png) no-repeat center center fixed;
+    background-color: #eee;
+    text-align: center;
+  }
+  
+  .banner img {
+    max-width: 50%;
+    border-radius: 50%;
+    margin-top: 20px;
+  }
+  
+  .banner h1 {
+    font-size: 2rem;
+    margin: 0;
   }
   
   /* Style the header title with a larger font size */
@@ -112,8 +135,7 @@ body {
     line-height: 1.6;
     margin-top: 1rem;
   }
-  
-  
+
   /* Style the unordered list with a list style and font size */
   ul {
     list-style: none;
@@ -140,6 +162,7 @@ body {
   /* Style the phone icon in the contact section */
   li i.fa-phone-alt {
     margin-right: 1rem;
+    color: #7f7f7f;
   }
   
   /* Style the email icon in the contact section with a red color */

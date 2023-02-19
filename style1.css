@@ -10,6 +10,10 @@ body {
     color: #fff;
     align-items: center;
   }
+
+  head link.logo img{
+    border-radius: 50%;
+  }
   
   /* Style the color and hover effect for all links */
   a {
@@ -40,6 +44,7 @@ body {
   .logo img {
     height: 65px;
     margin-right: 15px;
+    border-radius: 50%;
   }
 
   .banner {
@@ -123,7 +128,7 @@ body {
     padding: 20px;
     border: 1px solid #ccc;
     border-radius: 1rem;
-    box-shadow: #fff;
+    box-shadow: 10px 10px 10px grey;
   }
 
   /* Style the section headings with a larger font size and margin */
@@ -131,6 +136,13 @@ body {
     font-size: 2rem;
     margin-bottom: 20px;
     margin-top: 0.5%;
+    color: #00adc4;
+    text-decoration: underline;
+    font-family: 'Sacramento', 'cursive';
+  }
+
+  section h3 {
+    text-decoration: underline;
   }
   
   /* Style the section paragraphs with a font size and line height */
